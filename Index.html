@@ -74,7 +74,7 @@ document.getElementById('leadForm').addEventListener('submit', function(e) {
   const data = new FormData(this);
   const name = String(data.get('name')).trim();
   document.getElementById('success').style.display = 'block';
-  document.getElementById('success').textContent = `Thanks, ${name}! Your details are ready. Connect this form to a backend to receive and respond to enquiries.`;
+  document.getElementById('success').textContent = `Thanks, ${name}! Your details are ready. We will connect you soon.`;
   this.querySelector('button').textContent = 'REQUEST RECORDED ✓';
 });
 </script>
